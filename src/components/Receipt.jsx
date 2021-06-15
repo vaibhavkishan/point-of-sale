@@ -46,7 +46,7 @@ function Receipt(props) {
             {value.cart.map((item) => (
               <Fragment key={item.name}>
                 <tr style={{ border: 'white' }}>
-                  <td>1</td>
+                  <td>#</td>
                   <td>{item.name}</td>
                   <td>{' ' + item.quantity + ' '}</td>
                   <td>{item.subTotal}</td>
